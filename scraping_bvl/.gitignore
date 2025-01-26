@@ -1,0 +1,15 @@
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar entornos virtuales de Python
+venv/
+env/
+
+# Ignorar archivos de configuración local
+.env
+*.env
+
+# Ignorar archivos de datos grandes o sensibles
+*.csv
+*.xlsx
+*.json
