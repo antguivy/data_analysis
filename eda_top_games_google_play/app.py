@@ -22,9 +22,11 @@ In this notebook, we will do some analysis by looking at the data of Top Play St
 # Data Update
 @st.cache_data  # Data Caching
 def load_data():
-    data = pd.read_csv('android-games.csv')
+    url = "https://raw.githubusercontent.com/anthoguille/data_analysis/refs/heads/main/eda_top_games_google_play/android-games.csv"
+    data = pd.read_csv(url)
     # Data Cleaning
     data[['installs', 'mult']] = data['installs'].str.split(expand=True)
+    pd.set_option('future.no_silent_downcasting', True)
     data['mult'] = data['mult'].replace({'M': 1, 'K': 0.1, 'k': 0.1})
     data['installs'] = data['installs'].astype(float) * data['mult']
     data['price'] = data['price'].apply(lambda x: 'Free' if x == 0 else 'Paid')
@@ -112,6 +114,12 @@ with st.container():
     """)
 
     # Calculate the weighted score
+    # Ensure that 'total ratings' and 'installs' are numeric and handle NaN values
+    data['total ratings'] = pd.to_numeric(data['total ratings'], errors='coerce')
+    data['installs'] = pd.to_numeric(data['installs'], errors='coerce')
+    data['total ratings'] = data['total ratings'].fillna(0)
+    data['installs'] = data['installs'].fillna(0)
+
     data['score'] = data['average rating'] * np.log(data['total ratings'] + 1) * np.log(data['installs'] + 1)
 
     # Get the top 10 games
