@@ -2,7 +2,7 @@
 
 **Objetivo:**
 
-Asegurar que los productos estén correctamente categorizados para facilitar la búsqueda y el filtrado, tanto a nivel de categoría, subcategoría y familia. Esto es crucial para una experiencia de usuario óptima y un funcionamiento eficiente del motor de búsqueda.
+Asegurar que los productos estén correctamente categorizados para facilitar su búsqueda y filtrado, tanto a nivel de categoría, subcategoría y familia. Esto es crucial para una experiencia de usuario óptima y un funcionamiento eficiente del motor de búsqueda.
 
 **Hallazgos Principales:**
 

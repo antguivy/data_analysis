@@ -2,7 +2,7 @@
 
 **Objetivo:**
 
-Identificar y analizar productos duplicados en el catálogo.
+Identificar y analizar productos duplicados en la sección playa. Con el fin de comprender la magnitud del problema, su impacto potencial en la experiencia del cliente y la eficiencia del catálogo.
 
 **Hallazgos Principales:**
 
@@ -22,12 +22,12 @@ Se encontraron 173 filas de productos duplicados, algunos de ellos repetidos has
 
 1.  **Estadísticas Descriptivas:**
 
-    *   Se encontraron un total de 173 filas de productos duplicados.
+    *   Se encontraron un total de 173 productos duplicados en la sección Playa.
     *   La mayoría de los duplicados (26.5% - 46) se concentran  en la familia "Moda Mujer".
 
 2.  **Visualización:**
 
-    ![image.png](attachment:image.png)
+    ![image.png](/etl-falabella-playa/data/output/visualization/duplicated_products_family.png)
 
 **Consideraciones Adicionales:**
 
@@ -47,4 +47,4 @@ Se encontraron 173 filas de productos duplicados, algunos de ellos repetidos has
 
 **Conclusiones:**
 
-La presencia de duplicados, especialmente en la familia "Moda Mujer", plantea interrogantes sobre su origen y su impacto potencial en clientes y la empresa. Se recomienda un análisis más profundo para determinar si se trata de una estrategia intencional o un error, y para definir las mejores acciones para corregir y prevenir duplicados en el futuro.
+La presencia de duplicados, especialmente en la familia "Moda Mujer", plantea interrogantes sobre su origen y su impacto en clientes y la empresa. Se recomienda un análisis más profundo para determinar si se trata de una estrategia intencional o un error, y para definir las mejores acciones para corregir y prevenir duplicados en el futuro.
