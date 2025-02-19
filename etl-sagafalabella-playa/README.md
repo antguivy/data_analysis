@@ -1,3 +1,4 @@
 # PROYECTO ETL PARA ANÁLISIS DE DESCRIPCIONES DE PRODUCTOS DE SAGAFALABELLA
 
-Este proyecto implementa un pipeline ETL (Extracción, Transformación, Carga) para analizar la claridad y redundancia de descripciones de productos obtenidas mediante web scraping del sitio web de Sagafalabella.  Utiliza la inteligencia artificial de Gemini (a través de la API `google-genai`) para evaluar las descripciones y sugerir mejoras.
+Este proyecto implementa un pipeline ETL (Extracción, Transformación, Carga) obtenidas mediante web scraping del sitio web de Sagafalabella.  Utiliza la inteligencia artificial de Gemini (a través de la API `google-genai`) para evaluar la relación entre la descripción de un producto su familia a la que pertenece, además de evaluar si una descripción es redundante o poco clara.
+También se analizó la duplicación de productos existente, por último se muestra el análisis de reviews, rating y cálculo de un rating ponderado basado en IMDb.
