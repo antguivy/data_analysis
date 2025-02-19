@@ -1,7 +1,7 @@
 """
 Este módulo contiene el pipeline ETL para procesar datos de ventas.
 """
-from src.extract.scraper_sagafalabella import main as scraper_sf
+from src.extract.scraper_falabella import main as scraper_sf
 from src.transform.transform_scrape_data import transform_scrape_data
 from src.load.load_csv import load_data_csv
 from src.enrichment_ia.enrichment_data import enrichment_data_products

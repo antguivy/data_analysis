@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sagafalabella_verano"
+name = "falabella_verano"
 version = "0.1.0"
-description = "Proyecto ETL para análisis de datos de Sagafalabella Verano"
+description = "Proyecto ETL para análisis de datos de Falabella Verano"
 authors = [
     {name = "Anthony Villazana", email = "antguivy@gmail.com"}
 ]

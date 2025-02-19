@@ -1,5 +1,5 @@
 """
-Este módulo contiene un scraper para el sitio web de Saga Falabella, específicamente diseñado
+Este módulo contiene un scraper para el sitio web de Falabella, específicamente diseñado
 para extraer información de productos para la temporada "lo mejor de la playa".
 
 Utiliza Selenium para recopilar primero las URLs de los productos, las calificaciones y el 
@@ -12,8 +12,8 @@ calificación recopilados previamente.
 
 Este scraper está destinado únicamente a fines de investigación y análisis de datos. Debe usarse
 de manera responsable y ética, respetando los términos de servicio y la política de privacidad de 
-Saga Falabella. Evite sobrecargar sus servidores con solicitudes excesivas. Este scraper implementa 
-técnicas para minimizar la carga en los servidores de Saga Falabella, incluida la rotación de 
+Falabella. Evite sobrecargar sus servidores con solicitudes excesivas. Este scraper implementa 
+técnicas para minimizar la carga en los servidores de Falabella, incluida la rotación de 
 User-Agents e la introducción de retrasos entre las solicitudes.
 
 Limitaciones:
@@ -22,7 +22,7 @@ Los cambios en la estructura del sitio web pueden dañar el scraper. Podrían se
 actualizaciones y mantenimiento regulares.
 El rendimiento del scraper depende de la capacidad de respuesta del sitio web y de su conexión 
 de red.
-Respete el archivo robots.txt y los términos de servicio de Saga Falabella. Utilice este scraper
+Respete el archivo robots.txt y los términos de servicio de Falabella. Utilice este scraper
 de manera responsable. Evite realizar solicitudes excesivas que puedan ser perjudiciales para sus
 servidores.
 Autor:
