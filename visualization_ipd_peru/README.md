@@ -1,4 +1,4 @@
-# Proyecto Data Storytelling: Desempeño Deportivo Internacional Peruano (2014-2023) 🇵🇪 📊
+# Proyecto Data Storytelling: Desempeño Deportivo Internacional Peruano (2014-2023) 📊
 
 ![Dashboard Medallero Deportivo](/visualization_ipd_peru/docs/demo.gif)
 
