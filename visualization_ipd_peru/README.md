@@ -20,13 +20,11 @@ Este proyecto busca ir más allá de la presentación de datos brutos, contando 
 
 ## ¿Qué encontrarás en este proyecto? 🔍
 
-* **Imagen del Dashboard:**  Una imagen estática del dashboard para una vista rápida  ![dashboard.png](/visualization_ipd_peru/docs/dashboard_ss.png).
-* **Proceso:**  Un diagrama que ilustra el proceso de creación del dashboard, desde la obtención de datos hasta la visualización final ![Proceso.png](/visualization_ipd_peru/docs/process.png) .
+* **Imagen del Dashboard:**  
+  ![dashboard.png](/visualization_ipd_peru/docs/dashboard_ss.png)
+* **Proceso:**  Proceso de creación del dashboard, desde la obtención de datos hasta la visualización final. 
+![Proceso.png](/visualization_ipd_peru/docs/process.png) 
 
-* **Conjunto de Datos (Opcional):** El conjunto de datos utilizado para este proyecto se encuentra en `data/raw` y proviene de fuentes [Plataforma Nacional de Datos Abiertos](https://datosabiertos.gob.pe/dataset/deportistas-en-eventos-deportivos-internacionales-instituto-peruano-del-deporte-ipd).
-
-## Tecnologías Utilizadas
-
-* [Lista de tecnologías, librerías o herramientas que usaste para crear el dashboard.  Ejemplos:  Python, Pandas, Matplotlib, Seaborn, Power BI]
+* **Conjunto de Datos (Opcional):** El conjunto de datos utilizado para este proyecto se encuentra en `data/raw` y puedes descargarlo de la [Plataforma Nacional de Datos Abiertos](https://datosabiertos.gob.pe/dataset/deportistas-en-eventos-deportivos-internacionales-instituto-peruano-del-deporte-ipd).
 
 ---
