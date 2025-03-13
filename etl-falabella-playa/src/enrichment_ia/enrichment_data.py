@@ -1,5 +1,6 @@
 """
-Este módulo enriquece los datos del producto con información adicional generada mediante IA de Google.
+Este módulo enriquece los datos del producto con información adicional generada mediante IA de 
+Google.
 
 Crea tres nuevas columnas: 'relation_batch', 'clarity_flag_batch' y 'suggested_description_batch'.
 
