@@ -12,19 +12,57 @@ A **Power BI dashboard** focused on **logistics and revenue insights** across di
 
 ## 🎨 Design
 - **Background:** [Figma Design](./figma/background.png)
-- **Color Palette:**
-  - ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `#808080`
-  - ![#E6E6E6](https://via.placeholder.com/15/E6E6E6/000000?text=+) `#E6E6E6`
-  - ![#2E8B57](https://via.placeholder.com/15/2E8B57/000000?text=+) `#2E8B57`
-  - ![#FF6366](https://via.placeholder.com/15/FF6366/000000?text=+) `#FF6366`
-  - ![#FFE6D9](https://via.placeholder.com/15/FFE6D9/000000?text=+) `#FFE6D9`
-  - ![#FDBFAF](https://via.placeholder.com/15/FDBFAF/000000?text=+) `#FDBFAF`
-  - ![#E4FCED](https://via.placeholder.com/15/E4FCED/000000?text=+) `#E4FCED`
-  - ![#5AA9E6](https://via.placeholder.com/15/5AA9E6/000000?text=+) `#5AA9E6`
-  - ![#FEFAE0](https://via.placeholder.com/15/FEFAE0/000000?text=+) `#FEFAE0`
-  - ![#FAE24C](https://via.placeholder.com/15/FAE24C/000000?text=+) `#FAE24C`
-  - ![#EEF7EE](https://via.placeholder.com/15/EEF7EE/000000?text=+) `#EEF7EE`
-  - ![#ACD8AA](https://via.placeholder.com/15/ACD8AA/000000?text=+) `#ACD8AA`
+- **Color Palette:** [Figma Colors](./figma/palette.png)
+<table>
+  <tr>
+    <td style="background-color:#808080; width:50px;">&nbsp;</td>
+    <td><code>#808080</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#E6E6E6; width:50px;">&nbsp;</td>
+    <td><code>#E6E6E6</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#2E8B57; width:50px;">&nbsp;</td>
+    <td><code>#2E8B57</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FF6366; width:50px;">&nbsp;</td>
+    <td><code>#FF6366</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FFE6D9; width:50px;">&nbsp;</td>
+    <td><code>#FFE6D9</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FDBFAF; width:50px;">&nbsp;</td>
+    <td><code>#FDBFAF</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#E4FCED; width:50px;">&nbsp;</td>
+    <td><code>#E4FCED</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#5AA9E6; width:50px;">&nbsp;</td>
+    <td><code>#5AA9E6</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FEFAE0; width:50px;">&nbsp;</td>
+    <td><code>#FEFAE0</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FAE24C; width:50px;">&nbsp;</td>
+    <td><code>#FAE24C</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#EEF7EE; width:50px;">&nbsp;</td>
+    <td><code>#EEF7EE</code></td>
+  </tr>
+  <tr>
+    <td style="background-color:#ACD8AA; width:50px;">&nbsp;</td>
+    <td><code>#ACD8AA</code></td>
+  </tr>
+</table>
 
 ## 🛠 Tools & Resources
 - **Kaggle datasets** ([data](https://www.kaggle.com/datasets/pushpitkamboj/logistics-data-containing-real-world-data/data)) for historical data (2016-2017)
